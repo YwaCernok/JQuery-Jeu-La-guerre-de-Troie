@@ -1,0 +1,143 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Herculanum LT Pro Roman';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Herculanum LT Pro Roman'), url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/css/HerculanumLTProRoman.woff')format('woff');
+}
+
+body {
+    background-color: #FAF4EC;
+    color: #707070;
+    background-image: url("/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/img/bg-img.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+h1, h2 {
+    font-family: 'Herculanum LT Pro Roman';
+    text-align: center;
+}
+.headline{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
+p {
+    font-family: 'Tajawal', sans-serif;
+}
+/*Header*/
+#container_header{
+    display: flex;
+}
+#container_tuto {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container_heros{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 60vh;
+}
+.cont_img_M, .cont_img_H, .cont_img_P {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.btn{
+    background-color: #81705F;
+    border-radius: 1.5vh;
+    border: none;
+    color: #FAF4EC;
+    font-family: 'Herculanum LT Pro Roman';
+    width: 20vh;
+    padding: 1vh;
+    margin: 2vh;
+}
+.p_hercul{
+    font-family: 'Herculanum LT Pro Roman';
+    text-align: center;
+}
+.container_choix{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 30vh;
+}
+#computerChoice, #playerChoice {
+    height: 25vh;
+}
+.container_result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+.container_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    height: 40vh;
+}
+.container_form label {
+    margin-bottom: 2vh;
+}
+#btn_reset{
+    margin-bottom: 5vh;
+}
+.container_cheval{
+    display: flex;
+    justify-content: flex-end;
+    width: 100vw;
+    height: 40vh;
+}
+.bottom {
+    height: 60vh;
+}
+/* SweetAlert */
+.swal-modal {
+    background-color: #FAF4EC;
+    border-radius: 15px;
+}
+.swal-button{
+    padding: 7px 19px;
+    border-radius: 10px;
+  background-color: #81705F;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+  }
+.swal-title{
+    font-family: 'Herculanum LT Pro Roman';
+    color: #707070;
+  }
+.swal-text{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 900;
+  }
+@media screen and (max-width: 768px){
+    #container_tuto{
+        display: flex;
+        flex-direction: column;
+    }
+    .container_form{
+        text-align: center;
+    }
+    .image_tutoriel{
+        content: url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/img/Tuto_img_mobile.png');
+    }
+    .container_cheval{
+        height: 30vh;
+    }
+}

@@ -8,13 +8,13 @@
     font-family: 'Herculanum LT Pro Roman';
     font-style: normal;
     font-weight: normal;
-    src: local('Herculanum LT Pro Roman'), url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/css/HerculanumLTProRoman.woff')format('woff');
+    src: local('Herculanum LT Pro Roman'), url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/JQuery-Jeu-La-guerre-de-Troie/Jquery Jeu/assets/css/HerculanumLTProRoman.woff')format('woff');
 }
 
 body {
     background-color: #FAF4EC;
     color: #707070;
-    background-image: url("/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/img/bg-img.png");
+    background-image: url("/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/JQuery-Jeu-La-guerre-de-Troie/Jquery Jeu/assets/img/bg-img.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -135,7 +135,7 @@ p {
         text-align: center;
     }
     .image_tutoriel{
-        content: url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/Jquery Jeu/assets/img/Tuto_img_mobile.png');
+        content: url('/Users/evacernokova/Desktop/La_Manu/Module_01/Session1/15.JQuery game/JQuery-Jeu-La-guerre-de-Troie/Jquery Jeu/assets/img/Tuto_img_mobile.png');
     }
     .container_cheval{
         height: 30vh;
